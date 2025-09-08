@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "SL TECH BD V1.4",
+    "version": "1.0",
+    "description": "QX DEMO TO LIVE SL TECH BD.",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://market-qx.pro/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [],
+    "icons": {
+        "128": "icon.png"
+    }
+}
